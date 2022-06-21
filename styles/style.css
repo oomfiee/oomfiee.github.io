@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "RobotoFlex";
+    src: url(../styles/robotoflex.ttf);
+    font-display: swap;
+}
+
+body {
+    font-family: "RobotoFlex";
+    margin: 0;
+    background-color: #000000;
+    color: hsl(0, 0%, 10%);
+    line-height: 1.5;
+  }
+ 
+  h1 {
+    margin: 200px;
+    padding: 0px;
+    text-align: center;
+    line-height: 2.50;
+    color: #ffffff;
+  font-variation-settings: 'wght' 2900, "opsz" 9000;
+  font-stretch: 2500%;
+  font-size: 50px;
+  }
+  
+  h2 {
+    padding: 3em 2em;
+    margin: 1em;
+    text-align: left;
+    color:#ffffff;
+    font-variation-settings: 'wght' 290, "opsz" -20;
+    font-size: 21px;
+  }
+  
+  h3 { 
+    position:absolute;
+    padding: 13px 8em;
+    margin: -90px;
+    text-align: left;
+    color:#ffffff;
+    font-variation-settings: 'wght' 100, "opsz" -20;
+  }
+
+  h4 {
+    position:absolute;
+    padding: 0em 0em;
+    margin: 62px;
+    text-align: left;
+    color:#ffffff;
+    font-variation-settings: 'wght' 290, "opsz" -20;
+    font-size: 21px;
+  }
+
+  h5{
+    position:absolute;
+    padding: 2em 0em;
+    margin: 61px;
+    text-align: left;
+    color:#ffffff;
+    font-variation-settings: 'wght' 90, "opsz" -20;
+    font-size: 21px;
+  }
+  
+a:link { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290;}
+a:visited { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290;}
+a:hover { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290;}
+a:active { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290;}
