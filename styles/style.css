@@ -117,7 +117,7 @@ body {
 
 
 
-a:link { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 21px;}
-a:visited { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 21px;}
-a:hover { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 21px;}
-a:active { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 21px;}
+a:link { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
+a:visited { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
+a:hover { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
+a:active { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
