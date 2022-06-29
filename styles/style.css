@@ -7,27 +7,30 @@
 body {
     font-family: "RobotoFlex";
     margin: 0;
-    background-color: #000000;
-    color: hsl(0, 0%, 10%);
+    padding: 0;
+    background-color: #10020c;
     line-height: 1.5;
     overflow-x: hidden;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    min-width: 75vw;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(../styles/image_proxy.gif);
+    background-size: cover; 
   }
 
   @media only screen and (max-device-width: 480px) {
     .thicc {
-      margin: 90px;
-      padding: 0px -4em;
-      text-align: center !important;
-      margin-left: 19% !important;
-      line-height: 2.50;
-      color: #ffffff;
+    color: #ffffff;
     font-variation-settings: 'wght' 1000, "opsz" 90000;
     font-stretch: 2500%;
     font-size: 50px;
     }
     .aboutme {
-      padding: 4em 2em;
-      margin: 1em;
       text-align: left;
       color:#ffffff;
       font-variation-settings: 'wght' 290, "opsz" -20;
@@ -35,50 +38,38 @@ body {
     }
     
     .abouttext { 
-      position:absolute; 
-      padding: 13px 9.7;
-      margin: -90px;
       text-align: left;
       color:#ffffff;
-      font-variation-settings: 'wght' 100, "opsz" -20;
+      font-variation-settings: 'wght' 140, "opsz" -20;
       font-size: 20px;
     }
   
-    .blogs {
-      position:absolute;
-      padding: 0em 0em;
-      margin: 62px;
+    .work {
       text-align: left;
       color:#ffffff;
       font-variation-settings: 'wght' 290, "opsz" -20;
       font-size: 22px;
     }
   
-    .blog_links {
-      position:absolute;
-      padding: 3em 0em;
-      margin: 64px;
+    .work_links {
       text-align: left;
       color:#ffffff;
-      font-variation-settings: 'wght' 90, "opsz" -20;
+      font-variation-settings: 'wght' 140, "opsz" -20;
       font-size: 21px;
     }
+    
   }
   
   .thicc {
-    margin: 200px;
-    padding: 0px;
     text-align: center;
-    line-height: 2.50;
+    line-height: 9.90;
     color: #ffffff;
-  font-variation-settings: 'wght' 1000, "opsz" 90000;
+  font-variation-settings: 'wght' 1000, "opsz" 10000;
   font-stretch: 2500%;
   font-size: 50px;
   }
 
   .aboutme {
-    padding: 4em 1.5em;
-    margin: 1em;
     text-align: left;
     color:#ffffff;
     font-variation-settings: 'wght' 290, "opsz" -20;
@@ -86,38 +77,73 @@ body {
   }
   
   .abouttext { 
-    position:absolute; 
-    padding: 1px 9.7em;
-    margin: -140px;
     text-align: left;
     color:#ffffff;
-    font-variation-settings: 'wght' 100, "opsz" -20;
+    font-variation-settings: 'wght' 140, "opsz" -20;
     font-size: 20px;
   }
 
-  .blogs {
-    position:absolute;
-    padding: 0em 0em;
-    margin: 62px;
+  .work {
     text-align: left;
     color:#ffffff;
     font-variation-settings: 'wght' 290, "opsz" -20;
     font-size: 22px;
   }
+  .wropper {
+    max-width: min(100% - 32px, 61.25rem);
+    margin-inline: auto;
+}
 
-  .blog_links{
-    position:absolute;
-    padding: 3em 0em;
-    margin: 64px;
-    text-align: left;
-    color:#ffffff;
-    font-variation-settings: 'wght' 100, "opsz" -20;
-    font-size: 21px;
-  }
+a:link { 
+  text-decoration: none; color:#e04a4c;
+}
+a:visited { 
+  text-decoration: none; color:#e04a4c;
+}
+a:hover { 
+  text-decoration: underline; color: #e04a4c;
+}
+a:active { 
+  text-decoration: underline; color: #e04a4c;
+}
 
+::selection { 
+  background-color: #e04a4c;
+}
 
+::moz-selection { 
+  background-color: #e04a4c;
+}
 
-a:link { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
-a:visited { text-decoration: none; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
-a:hover { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
-a:active { text-decoration: underline; color:#93e5d3; font-variation-settings: 'wght' 290; font-size: 23px;}
+a::selection {
+  color: #10020c;
+}
+
+a::-moz-selection {
+  color: #10020c;
+}
+
+h2::selection {
+  color: #10020c;
+
+}
+
+h2::-moz-selection {
+  color: #10020c;
+}
+
+h1::selection {
+  color: #10020c;
+}
+
+h1::-moz-selection {
+  color: #10020c;
+}
+
+p::selection {
+  color: #10020c;
+}
+
+p::-moz-selection {
+  color: #10020c;
+}
