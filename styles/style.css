@@ -19,7 +19,7 @@ body {
     margin: auto;
     height: 100vh;
     width: 100vw;
-    background-image: url(../styles/image_proxy.gif);
+    background-color: #170913
     background-size: cover; 
   }
 
